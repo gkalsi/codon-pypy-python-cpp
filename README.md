@@ -7,6 +7,9 @@ The implementations being compared:
  + **Vanilla Python 3** - [python.org](https://www.python.org/)
  + **Codon** - [Github](https://github.com/exaloop/codon)
  + **Pypy3** - [pypy3.org](https://www.pypy.org/)
+ + **C++**
+
+**Test Bench**: Intel® Core™ i3-7100U CPU @ 2.40GHz (2 Core / 4 Threads)
 
 Results are as follows. Sorted from fastest to slowest: 
 |       Command      |     Mean [s]    | Min [s] | Max [s] |  Relative  |
