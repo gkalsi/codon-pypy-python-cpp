@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-N_ITERATIONS=50000
+N_ITERATIONS=10000
 
 codon build codon-primes.py
 codon build python-primes.py

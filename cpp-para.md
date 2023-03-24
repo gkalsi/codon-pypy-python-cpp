@@ -1,3 +1,3 @@
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `./cpp-para 50000` | 1.971 ± 0.058 | 1.883 | 2.074 | 1.00 |
+| `./cpp-para 10000` | 82.1 ± 7.8 | 76.7 | 104.0 | 1.00 |

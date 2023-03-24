@@ -1,3 +1,3 @@
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `./python-primes 50000` | 14.724 ± 0.049 | 14.663 | 14.839 | 1.00 |
+| `./python-primes 10000` | 590.8 ± 4.7 | 585.0 | 598.4 | 1.00 |

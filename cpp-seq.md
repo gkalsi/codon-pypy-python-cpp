@@ -1,3 +1,3 @@
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `./cpp-primes 50000` | 4.566 ± 0.029 | 4.530 | 4.612 | 1.00 |
+| `./cpp-primes 10000` | 182.9 ± 2.8 | 181.1 | 192.6 | 1.00 |

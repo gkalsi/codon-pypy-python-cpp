@@ -1,3 +1,3 @@
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `./codon-primes 50000` | 5.517 ± 0.057 | 5.413 | 5.600 | 1.00 |
+| `./codon-primes 10000` | 226.8 ± 9.0 | 217.2 | 245.1 | 1.00 |

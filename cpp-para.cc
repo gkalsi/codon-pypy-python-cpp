@@ -59,7 +59,7 @@ class Coordinator {
   const uint64_t range_end_;
   uint64_t next_start_;
 
-  std::mutex total_mutex_;
+  mutable std::mutex total_mutex_;
   uint64_t total_ = 0;
 };
 
