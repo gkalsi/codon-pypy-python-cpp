@@ -47,7 +47,10 @@ class Coordinator {
     total_ += n;
   }
 
-  uint64_t Total() const { return total_; }
+  uint64_t Total() const {
+    std::lock_guard<std::mutex> m(total_mutex_);
+    return total_;
+  }
 
  private:
   std::mutex chunk_mutex_;
